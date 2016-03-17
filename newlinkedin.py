@@ -14,8 +14,8 @@ csrf = soup.find(id="loginCsrfParam-login")['value']
 
 
 login_information = {
-    'session_key':'pratyush.sinha@iiml.org',
-    'session_password':'ilovemyself',
+    'session_key':'email@email.com',
+    'session_password':'password',
     'loginCsrfParam': csrf,
 }
 
